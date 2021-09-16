@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+section{
+    max-height: 200vh;
+}
+
+section{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100vh;
+    max-height: 100vh !important;
+    position: relative;
+}
+
+.formDiv,
+.todoDiv{
+    width: 50%;
+    margin: 10px;
+}
+
+.formDiv form input
+{
+    height: 2rem;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.formDiv form textarea{
+    padding: 5px;
+    margin: 10px 0px;
+    width: 100%;
+
+}
+.btn{
+    background-color: #121212;
+    color: #fff;
+    font-size: 2em;
+    height: 3.5rem !important;
+    transition: 300ms;
+    border: solid 1px #000;
+}
+.btn:hover{
+    border: solid 1px #000;
+    color: #121212;
+    background-color: #fff;
+    color: #121212;
+    transition: 300ms;
+    font-size: 2em;
+    height: 3.5rem !important;
+}
+
+.todo{
+    margin: 10px;
+    padding: 20px;ii
+    border-radius: 10px;
+    border: #121212 solid 1px;
+}
+@media(max-width: 800px) {
+    .sideimg{
+        position: absolute;
+        top: 0 ;
+        right: 0;
+        opacity: 0.5;
+        width: 100%;
+    }
+}
+@media(max-width: 500px) {
+    section{
+        padding: 50px 100px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        min-height: 100vh;
+        max-height: 100vh !important;
+        position: relative;
+    }
+
+    .formDiv,
+    .todoDiv{
+        width: 100%;
+        margin: 10px;
+    }
+    
+}
